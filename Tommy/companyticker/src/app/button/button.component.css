@@ -1,0 +1,10 @@
+/* invalid class should display red border
+    selected class should display blue border
+*/
+.selected {
+    border: 1px solid blue;
+}
+.invalid {
+    border: 1px solid red;
+}
+

@@ -1,0 +1,3 @@
+<!-- hide button if isCorrect flag is true -->
+<!-- button class is invalid if the isCorrect flag is false button class is selected if the selected flag is true -->
+<button  [ngClass]="{'invalid': !value.isCorrect && value.selected && isWrong    , 'selected': value.selected}" (click)="onClick()">{{value.key}}</button>
