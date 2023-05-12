@@ -1,0 +1,9 @@
+adbate:
+  - json: status
+    xml: StatusCode
+  - json: statusDesc
+    xml: StatusDesc
+  - json: messageSourceIdentifier
+    xml: RefernceNo
+  - json: txnLeg
+    xml: ABCCustomerOutput
