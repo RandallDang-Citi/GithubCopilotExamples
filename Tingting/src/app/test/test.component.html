@@ -1,0 +1,9 @@
+<div style="margin-top: 20px;">
+  <span>test api</span>
+  <button id="all" (click)="getUsers()">All User</button>
+  <button id="John" (click)="getUsers('John')">Name: John</button>
+  <button id="NotMatch" (click)="getUsers('NotMatch')">Name: NotMatch</button>
+  <div>
+    Result: <span>{{userList}}</span>
+  </div>
+</div>

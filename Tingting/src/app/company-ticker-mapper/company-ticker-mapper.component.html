@@ -1,0 +1,4 @@
+<div *ngFor="let i of companyTikerList">
+  <button id="{{i}}" (click)="btnClick(i)">{{i}}</button>
+</div>
+<span *ngIf="!companyTikerList.length">{{message}}</span>
