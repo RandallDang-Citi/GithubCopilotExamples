@@ -1,8 +1,5 @@
 export default [{"companyName": "Apple", "companyTicker": "AAPL"},
 {"companyName": "Microsoft", "companyTicker": "MSFT"},
 {"companyName": "Google", "companyTicker": "GOOG"},
-{"companyName": "Google", "companyTicker": "GOOG"},
-{"companyName": "党若林", "companyTicker": "我"},
-{"companyName": "党运峰", "companyTicker": "爸爸"},
-{"companyName": "谢宁宁", "companyTicker": "妈妈"}
+{"companyName": "Google", "companyTicker": "GOOG"}
 ]
